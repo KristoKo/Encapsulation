@@ -1,1 +1,1 @@
-# Encapsulation
+# Encapsulation and software testing exercises
