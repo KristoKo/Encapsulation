@@ -27,6 +27,9 @@ public class Dog {
     }
 
     public void setAge(int age) {
+        if (age <= 0) {
+            System.out.println("Can't be, please fix the age!");
+        }
         this.age = age;
     }
 
@@ -36,7 +39,7 @@ public class Dog {
 
     public void setWeight(int weight) {
         if (weight <= 0) {
-            System.out.println("Thats not right");
+            System.out.println("Weightless? Please fix that, sir!");
         }
         this.weight = weight;
     }
