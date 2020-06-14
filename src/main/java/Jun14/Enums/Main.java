@@ -9,6 +9,12 @@ public class Main {
 
         String color = Flags.FINLAND.getColor();
 
+        //for loop example to iterate through, also tell me if there are stars in the flag
+        for (Flags flags : Flags.values()) {
+            System.out.println(flags.getColor() + " ");
+            System.out.println(flags.getHasStar());
+        }
+
 
 
 
